@@ -17,11 +17,11 @@ jobs:
       - name: Build
         run: npm run docs:build
         
-        
+
       # - name: CreateTag
       #   run git tag -a
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTION_SECRET }}
+          token: ${{ secrets.ACTION_SECRET }}
           publish_dir: docs/.vitepress/dist
