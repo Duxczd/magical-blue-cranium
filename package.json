@@ -1,0 +1,26 @@
+{
+  "name": "magical-blue-cranium",
+  "version": "1.0.0",
+  "description": "百变口袋",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duxczd/magical-blue-cranium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duxczd/magical-blue-cranium/issues"
+  },
+  "homepage": "https://github.com/Duxczd/magical-blue-cranium#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.1",
+    "vue": "^3.3.4"
+  }
+}
