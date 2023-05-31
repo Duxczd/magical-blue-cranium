@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -17,11 +19,11 @@ jobs:
       - name: Build
         run: npm run docs:build
         
-
+        
       # - name: CreateTag
       #   run git tag -a
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.ACTION_SECRET }}
+          personal_token: ${{ secrets.ACTION_SECRET }}
           publish_dir: docs/.vitepress/dist
