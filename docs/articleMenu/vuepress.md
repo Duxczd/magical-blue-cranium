@@ -175,16 +175,26 @@ jobs:
 首先 job 里配置运行这个脚本需要的虚拟机环境，这个虚拟机环境由 github 提供，可用的包括 windows、linux、macos 等环境，具体看官方文档。在此示例中其实不论哪个系统都是可以的，因为我们需要的是 node 环境，而 node 本身就是跨平台的。
 
 接下里设置获取源码、需要的 node 版本、增加缓存依赖，这里使用官方提供的 actions/setup-node@v1、setup-node@v1、cache@v2。这里的@表示版本，使用别人的 action 时最好都加上版本，以防后面更新的 action 不兼容当前的脚本。这些前置条件配置好，接下来就是熟悉的 npm install、npm run build:docs，安装依赖使用--frozen-lockfile 来锁定版本。最后一步就是将打包的目录更新到 gh-pages 分支。因为要更新 github 代码，所以还需要配置 github-token。
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/61815fbd6adc4b10b5d60da9b49ab8b5~tplv-k3u1fbpfcp-watermark.image)
 
-在仓库的 setting 下找到 secert，新建一个 secert，文件名可以随便取，在 workflow 的环境变量里 secerts 指的就是这里 secert，后面就是 secert 里文件的具体名称，在这里取为 ACTION_SECERT，env 配置 secerts.ACTION_SECRET 就行。
+1.获取 github-token
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/74607c18da504d63a88894d9493d6dce~tplv-k3u1fbpfcp-watermark.image)
+点击 GitHub 个人头像 --> Settings --> Developer settings
+
+注意：token 生成后及时复制保存好，离开此页面后 token 将不可见
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/252e3d42460a4d56be3ca8bb9e84ea37~tplv-k3u1fbpfcp-watermark.image)
+
+2.在仓库的 setting 下找到 secert，新建一个 secert，文件名可以随便取，在 workflow 的环境变量里 secerts 指的就是这里 secert，后面就是 secert 里文件的具体名称，在这里取为 PERSONAL_TOKEN，env 配置 secerts.PERSONAL_TOKEN 就行。
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2dabc93487b3475a8632ede81597abfa~tplv-k3u1fbpfcp-watermark.image)
+
+![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/343a9e7b59db4804b0611920d4013fde~tplv-k3u1fbpfcp-watermark.image)
+
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eb25a834b30d4c708378d1670cc0bc2e~tplv-k3u1fbpfcp-watermark.image)
 
 最后指定部署的分支名称，和部署到分支的默认输出目录就行。
 
 尝试着推送代码，可以看到仓库的 Actions 开始自动运行了，并且能看到运行的日志。
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fc2cd9e087804342978c671aec803489~tplv-k3u1fbpfcp-watermark.image)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bff978097bbd4334bcea76c1532f0743~tplv-k3u1fbpfcp-watermark.image)
 
 运行完后访问 https://username.github.io/repo 就能看到部署后的效果了。
 
