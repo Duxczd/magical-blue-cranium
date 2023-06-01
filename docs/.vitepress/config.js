@@ -2,6 +2,7 @@ const config = {
   title: '神奇的蓝脑壳',
   lastUpdated: true,
   base: '/magical-blue-cranium',
+  head: [["link", { rel: "icon", type: "image/png", href: "duolaAmeng.png" }]],
   themeConfig: {
     logo: '/duolaAmeng.png',
     nav: [

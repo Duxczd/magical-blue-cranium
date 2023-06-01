@@ -1,5 +1,7 @@
 ---
 layout: home
+
+title: 首页
  
 hero:
   name: Magical
@@ -14,7 +16,7 @@ hero:
       link: /basicMenu/javascript
     - theme: alt
       text: View on GitHub
-      link:
+      link: https://github.com/Duxczd
  
 features:
   - icon: ⚡️
