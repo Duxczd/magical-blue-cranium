@@ -176,10 +176,8 @@ jobs:
 
 接下里设置获取源码、需要的 node 版本、增加缓存依赖，这里使用官方提供的 actions/setup-node@v1、setup-node@v1、cache@v2。这里的@表示版本，使用别人的 action 时最好都加上版本，以防后面更新的 action 不兼容当前的脚本。这些前置条件配置好，接下来就是熟悉的 npm install、npm run build:docs，安装依赖使用--frozen-lockfile 来锁定版本。最后一步就是将打包的目录更新到 gh-pages 分支。因为要更新 github 代码，所以还需要配置 github-token。
 
-1.获取 github-token
-
-点击 GitHub 个人头像 --> Settings --> Developer settings
-
+1.获取 github-token  
+点击 GitHub 个人头像 --> Settings --> Developer settings  
 注意：token 生成后及时复制保存好，离开此页面后 token 将不可见
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/252e3d42460a4d56be3ca8bb9e84ea37~tplv-k3u1fbpfcp-watermark.image)
 
