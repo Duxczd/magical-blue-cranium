@@ -14,7 +14,7 @@ const config = {
           { text: 'vue', link: '/vueMenu/next-tick'}
         ]
       },
-      { text: '文章', link: '/'},
+      { text: '文章', link: '/articleMenu/vuepress'},
       { text: '关于我', link: '/'}
     ],
     sidebar: {
@@ -38,6 +38,17 @@ const config = {
             {
               text: "1.nextTick",
               link: "/vueMenu/next-tick",
+            }
+          ]
+        }
+      ],
+      '/articleMenu/': [
+        {
+          isGroup: true,
+          items: [
+            {
+              text: "GitHub Action + VuePress 部署",
+              link: "/articleMenu/vuepress",
             }
           ]
         }
