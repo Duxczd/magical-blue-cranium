@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /basicMenu/javascript
+      link: /column/choicenessMenu/
     - theme: alt
       text: View on GitHub
       link: https://github.com/Duxczd
