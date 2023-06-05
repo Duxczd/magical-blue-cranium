@@ -8,7 +8,7 @@ lastUpdated: true
 hero:
   name: Magical
   text: 神奇的蓝脑壳
-  tagline: 前端知识大全
+  tagline: 百变口袋
   image:
     src: /duolaAmeng.png
     alt: logo
