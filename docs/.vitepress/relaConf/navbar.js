@@ -7,5 +7,5 @@ export const nav = [
       { text: 'vue', link: '/column/vueMenu/next-tick'}
     ]
   },
-  { text: '个人随笔', link: '/column/articleMenu/vuepress'}
+  { text: '随笔', link: '/column/articleMenu/vitepress'}
 ];

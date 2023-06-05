@@ -66,9 +66,13 @@ export const sidebar = {
   '/column/articleMenu/': [
     {
       items: [
+        // {
+        //   text: 'GitHub Action + VuePress 部署',
+        //   link: '/column/articleMenu/vuepress',
+        // }
         {
-          text: 'GitHub Action + VuePress 部署',
-          link: '/column/articleMenu/vuepress',
+          text: 'vitepress 从0到1 搭建技术博客',
+          link: '/column/articleMenu/vitepress',
         }
       ]
     }
