@@ -105,16 +105,16 @@ npm exec vitepress init
 
 ```JavaScript
 export default defineConfig({
-    title: 'mondaylab-blog-demo', // 标题
+    title: '神奇的蓝脑壳', // 标题
     themeConfig: {
-        logo: '/avatar.png' // 表示docs/public/avartar.png
+        logo: '/duolaAmeng.png' // 表示docs/public/avartar.png
     }
 })
 ```
 
 **具体展示效果为：**
 
-![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305271703187.png)
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0aa019e1a451409aa913af1962fc60da~tplv-k3u1fbpfcp-watermark.image)
 
 #### **（2）右上角-导航内容自定义**
 
@@ -142,22 +142,13 @@ export const nav: DefaultTheme.NavItem[] = [
     link: '/' // 表示docs/index.md
   },
   {
-    text: '个人成长',
-    items: [
-      {
-        text: '大江南北游记',
-        link: '/column/Travel/' // 表示docs/column/Travel/index.md
-      },
-      {
-        text: '所思·所想',
-        link: '/column/Growing/' // 表示docs/column/Growing/index.md
-      }
-    ]
+    text: '精选专栏',
+    link: '/column/choicenessMenu/' // 表示docs/column/choicenessMenu/index.md
   },
   {
-    text: '关于我',
+    text: '干货社区',
     items: [
-      { text: 'Github', link: 'https://github.com/Jacqueline712' },
+      { text: 'vue', link: '/column/vueMenu/next-tick'}
     ]
   }
 ];
@@ -178,7 +169,7 @@ export default defineConfig({
 
 到这里，我们就完成了`navbar`的美化。具体来看下效果：
 
-![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305271704406.png)
+![img](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/43056c9e4266438faa3920ab85604024~tplv-k3u1fbpfcp-watermark.image)
 
 ### 2、首页美化home
 
@@ -219,20 +210,20 @@ hero:
 # 按钮下方的描述
 features:
   - icon: ⚡️
-    title: 记录知识
-    details: 把学习整理的知识记录下来，对知识进一步理解，系统性学习
+    title: Web前端
+    details: 互联网公司搬砖工
   - icon: 🖖
     title: 技术文章
-    details: 将研究技术、阅读源码的过程记录下来，不管作为分享，还是自己以后回顾，都是一种很不错的方式
+    details: 记录日常看到的优秀技术文章以及日常开发心得
   - icon: 🛠️
     title: 个人网站
-    details: 博客可以用来展示自己的学习成果，也能作为自己的名片
+    details: 纯属娱乐选手
 ---
 ```
 
 **来看下效果：**
 
-![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305271704936.png)
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fdbccf3b6bb74103af8d7e771c43d2ba~tplv-k3u1fbpfcp-watermark.image)
 
 到此，一个像模像样的首页就有了。但有些同学会觉得，自定义力度还不够，比如说想在页面的下方再加点图片或者图标之类的，那下面我们就来说说，在vitepress中如何自定义组件。
 
@@ -289,10 +280,6 @@ import home from './components/home.vue';
 
 <home />
 ```
-
-下面来看实现后的效果：
-
-![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305271704682.png)
 
 这样，我们就实现了相应的自定义内容。按照这个思路，我们也可以在组件里面写各种自己想要添加的东西，达到**页面自定义**的效果。
 
@@ -542,7 +529,7 @@ export default {
 
 这样，我们就完成整体主题色的替换：
 
-![img](https://mondaylab-1309616765.cos.ap-shanghai.myqcloud.com/images/202305271705514.png)
+![img](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd2b235ca6e54b1e9dc1611d132c9825~tplv-k3u1fbpfcp-watermark.image)
 
 大家可以看到，整体变成了以**紫色调**为主，右图像的渐变也有了。如果还想要修改其他跟主题色相关的颜色，可以看下官方`github`上的变量说明，进行相应的修改。
 
@@ -651,7 +638,7 @@ sh ./vitepress-starter/deploy.sh
 
 最后，放上此次搭建的`demo`地址，可以直接`fork`，然后将相关的文字等内容进行修改即可。
 
-具体地址戳：https://github.com/Duxczd/magical-blue-cranium
+具体地址戳：https://github.com/Duxczd/magical-blue-cranium 
 
 # 💡参考资料
 
@@ -670,6 +657,8 @@ sh ./vitepress-starter/deploy.sh
 
 - [vuepress博客搭建系列 - 保姆级教程](https://juejin.cn/column/7041871760995647502)
 - [使用 VitePress 打造个人前端导航网站 - 掘金](https://juejin.cn/post/7204860462239498296#heading-0)
+
+转载原文地址：https://juejin.cn/post/7239341970463391781
 
 
 
