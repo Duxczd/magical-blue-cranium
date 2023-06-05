@@ -22,12 +22,12 @@ hero:
  
 features:
   - icon: ⚡️
-    title: 记录知识
-    details: 把学习整理的知识记录下来，对知识进一步理解，系统性学习
+    title: Web前端
+    details: 互联网公司搬砖工
   - icon: 🖖
     title: 技术文章
-    details: 将研究技术、阅读源码的过程记录下来，不管作为分享，还是自己以后回顾，都是一种很不错的方式
+    details: 记录日常看到的优秀技术文章以及日常开发心得
   - icon: 🛠️
     title: 个人网站
-    details: 博客可以用来展示自己的学习成果，也能作为自己的名片
+    details: 纯属娱乐选手
 ---
