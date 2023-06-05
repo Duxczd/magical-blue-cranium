@@ -1,7 +1,9 @@
 ---
 layout: home
 
-title: 首页
+title: 蓝胖子
+titleTemplate: Magical
+lastUpdated: true
  
 hero:
   name: Magical
