@@ -2,9 +2,9 @@ export const nav = [
   { text: '首页', link: '/'},
   { text: '精选专栏', link: '/column/choicenessMenu/'},
   { 
-    text: '干货社区', 
+    text: '分类索引', 
     items: [
-      { text: 'vue', link: '/column/vueMenu/next-tick'}
+      { text: '前端开发', link: '/column/vueMenu/next-tick'}
     ]
   },
   { text: '随笔', link: '/column/articleMenu/vitepress'}

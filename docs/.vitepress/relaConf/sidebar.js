@@ -65,11 +65,17 @@ export const sidebar = {
   ],
   '/column/articleMenu/': [
     {
+      text: '工具',
       items: [
-        // {
-        //   text: 'GitHub Action + VuePress 部署',
-        //   link: '/column/articleMenu/vuepress',
-        // }
+        {
+          text: 'VsCode',
+          link: '/column/articleMenu/vscode',
+        }
+      ]
+    },
+    {
+      text: '博客',
+      items: [
         {
           text: 'vitepress 从0到1 搭建技术博客',
           link: '/column/articleMenu/vitepress',
