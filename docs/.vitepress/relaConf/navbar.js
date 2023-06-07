@@ -4,8 +4,8 @@ export const nav = [
   { 
     text: '分类索引', 
     items: [
-      { text: '前端开发', link: '/column/vueMenu/next-tick'}
+      { text: '前端开发', link: '/column/classifyMenu/'}
     ]
   },
-  { text: '随笔', link: '/column/articleMenu/vitepress'}
+  { text: '随笔', link: '/column/articleMenu/'}
 ];

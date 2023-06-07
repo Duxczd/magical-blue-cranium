@@ -52,13 +52,13 @@ export const sidebar = {
       ]
     }
   ],
-  '/column/vueMenu/': [
+  '/column/classifyMenu/': [
     {
-      text: 'Vue',
+      text: 'Vue2、3',
       items: [
         {
           text: '1.nextTick',
-          link: '/column/vueMenu/next-tick',
+          link: '/column/classifyMenu/vue/next-tick',
         }
       ]
     }
@@ -69,16 +69,20 @@ export const sidebar = {
       items: [
         {
           text: 'VsCode',
-          link: '/column/articleMenu/vscode',
+          link: '/column/articleMenu/VsCode',
         }
       ]
     },
     {
-      text: '博客',
+      text: '日常',
       items: [
         {
-          text: 'vitepress 从0到1 搭建技术博客',
-          link: '/column/articleMenu/vitepress',
+          text: '001-vitepress 从0到1 搭建技术博客',
+          link: '/column/articleMenu/Vitepress',
+        },
+        {
+          text: '002-Element-Upload 附件上传',
+          link: '/column/articleMenu/ElementUpload',
         }
       ]
     }
