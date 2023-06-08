@@ -82,7 +82,7 @@ export const sidebar = {
         },
         {
           text: '002-Element-Upload 附件上传',
-          link: '/column/articleMenu/elementUpload',
+          link: '/column/articleMenu/element-upload',
         }
       ]
     }
