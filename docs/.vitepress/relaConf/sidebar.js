@@ -69,7 +69,7 @@ export const sidebar = {
       items: [
         {
           text: 'VsCode',
-          link: '/column/articleMenu/VsCode',
+          link: '/column/articleMenu/vscode',
         }
       ]
     },
@@ -78,11 +78,11 @@ export const sidebar = {
       items: [
         {
           text: '001-vitepress 从0到1 搭建技术博客',
-          link: '/column/articleMenu/Vitepress',
+          link: '/column/articleMenu/vitepress',
         },
         {
           text: '002-Element-Upload 附件上传',
-          link: '/column/articleMenu/ElementUpload',
+          link: '/column/articleMenu/elementUpload',
         }
       ]
     }
