@@ -6,7 +6,7 @@
 
 ## Vue2、3
 
-[next-tick](Vue/next-tick.md)
+[next-tick](vue/next-tick.md)
 
 
 
