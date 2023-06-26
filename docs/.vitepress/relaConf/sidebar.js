@@ -2,6 +2,8 @@ export const sidebar = {
   '/column/choicenessMenu/': [
     {
       text: '前端三件套',
+      collapsible: true,
+      collapsed: true,
       items: [
         {
           text: 'HTML篇',
@@ -19,6 +21,8 @@ export const sidebar = {
     },
     {
       text: '计算机基础知识',
+      collapsible: true,
+      collapsed: true,
       items: [
         {
           text: '计算机网络',
@@ -36,6 +40,8 @@ export const sidebar = {
     },
     {
       text: '框架和项目',
+      collapsible: true,
+      collapsed: true,
       items: [
         {
           text: 'vue.js篇',
