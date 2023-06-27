@@ -103,7 +103,7 @@ export const sidebar = {
       items: [
         {
           text: 'JavaScript',
-          link: '/column/developmentMenu/Web/JavaScript',
+          link: '/column/developmentMenu/Web/JavaScript/001',
         },
         {
           text: 'HTML',
@@ -125,9 +125,25 @@ export const sidebar = {
       text: 'JavaScript笔记',
       items: [
         {
-          text: 'js 实现 iframe通信',
+          text: '1.js实现防抖与节流函数',
+          link: '/column/developmentMenu/Web/JavaScript/001',
+        },
+        {
+          text: '2.js 实现 iframe通信',
+          link: '/column/developmentMenu/Web/JavaScript/002',
+        },
+        {
+          text: '3.比typeof运算符更准确的js类型判断',
+          link: '/column/developmentMenu/Web/JavaScript/003',
+        },
+        {
+          text: '4.非常实用的Js代码工具片段',
           link: '/column/developmentMenu/Web/JavaScript/004',
-        }
+        },
+        {
+          text: '5.Promise中的async与await特点',
+          link: '/column/developmentMenu/Web/JavaScript/005',
+        },
       ]
     }
   ],
