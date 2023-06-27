@@ -170,5 +170,16 @@ export const sidebar = {
         }
       ]
     }
+  ],
+  '/column/favoriteMenu/': [
+    {
+      text: '收藏夹',
+      items: [
+        {
+          text: '1.站点收藏',
+          link: '/column/favoriteMenu/site',
+        }
+      ]
+    }
   ]
 };

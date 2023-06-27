@@ -14,5 +14,6 @@ export const nav = [
       { text: '其他文档', link: '/column/developmentMenu/'}
     ]
   },
+  { text: '收藏夹', link: '/column/favoriteMenu/'},
   { text: '随笔', link: '/column/articleMenu/'}
 ];
