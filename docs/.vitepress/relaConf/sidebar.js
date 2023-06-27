@@ -3,7 +3,7 @@ export const sidebar = {
     {
       text: '前端三件套',
       collapsible: true,
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'HTML篇',
@@ -22,7 +22,7 @@ export const sidebar = {
     {
       text: '计算机基础知识',
       collapsible: true,
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: '计算机网络',
@@ -41,7 +41,7 @@ export const sidebar = {
     {
       text: '框架和项目',
       collapsible: true,
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           text: 'vue.js篇',
@@ -58,13 +58,75 @@ export const sidebar = {
       ]
     }
   ],
-  '/column/classifyMenu/': [
+  '/column/developmentMenu/': [
     {
-      text: 'Vue2、3',
+      text: '目录',
       items: [
         {
-          text: '1.nextTick',
-          link: '/column/classifyMenu/vue/next-tick',
+          text: '1.Web技术',
+          link: '/column/developmentMenu/Web/',
+        },
+        {
+          text: '2.Npm笔记',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '3.Markdown',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '4.Git笔记',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '5.Nginx文档',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '6.Linux文档',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '7.Linux文档',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: '8.其他文档',
+          link: '/column/developmentMenu/Web',
+        },
+      ]
+    }
+  ],
+  '/column/developmentMenu/Web/': [
+    {
+      text: 'Web技术',
+      items: [
+        {
+          text: 'JavaScript',
+          link: '/column/developmentMenu/Web/JavaScript',
+        },
+        {
+          text: 'HTML',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: 'CSS',
+          link: '/column/developmentMenu/Web',
+        },
+        {
+          text: 'Vue',
+          link: '/column/developmentMenu/Web',
+        }
+      ]
+    }
+  ],
+  '/column/developmentMenu/Web/JavaScript/': [
+    {
+      text: 'JavaScript笔记',
+      items: [
+        {
+          text: 'js 实现 iframe通信',
+          link: '/column/developmentMenu/Web/JavaScript/004',
         }
       ]
     }
