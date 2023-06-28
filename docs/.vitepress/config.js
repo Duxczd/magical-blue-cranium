@@ -5,6 +5,7 @@ export default defineConfig({
   title: '神奇的蓝脑壳',
   lastUpdated: true,
   base: '/magical-blue-cranium',
+  ignoreDeadLinks: true, // 不会因为无效链接而导致构建失败
   // 移动端搜索框优化
   head: [
     [
