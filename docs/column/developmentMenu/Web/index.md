@@ -5,6 +5,6 @@
 ## 目录
 
 ### [1.JavaScript](JavaScript/001.md)
-### [2.HTML](HTMLs/next-tick.md)
-### [3.CSS](CSSs/next-tick.md)
-### [4.Vue](Vue/next-tick.md)
+### [2.HTML](JavaScript/001.md)
+### [3.CSS](JavaScript/001.md)
+### [4.Vue](JavaScript/001.md)
